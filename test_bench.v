@@ -8,6 +8,7 @@ module test_bench();
 	
 	Calculator calculator(.A(A), .B(B), .Result(Answer));
 	
+	
     initial begin
         
         $dumpfile("wave.vcd");        

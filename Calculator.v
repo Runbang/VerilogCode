@@ -4,6 +4,7 @@ module Calculator(A,B,Result);
 	input [143:0] B;
 	output [143:0] Result;
 	
+	
 	reg [143:0] Result;
 	reg [15:0] A1 [0:2][0:2];
 	reg [15:0] B1 [0:2][0:2];
